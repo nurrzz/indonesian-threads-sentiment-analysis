@@ -1,0 +1,17 @@
+# Secrets
+.env
+*.token
+
+# Collected data (raw posts are not redistributed; see data/README.md)
+data/raw/
+data/interim/
+*.csv
+*.parquet
+!data/samples/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
