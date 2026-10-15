@@ -27,7 +27,18 @@ except ImportError:
 
 API_BASE = "https://graph.threads.net/v1.0"
 FIELDS = "id,text,timestamp,permalink,media_type"
-DEFAULT_KEYWORDS = ["fresh graduates", "phk", "gaji", "wtc"]
+DEFAULT_KEYWORDS = [
+    "fresh graduate",
+    "fresh graduates",
+    "fresh grad",
+    "phk",
+    "gaji",
+    "karir",
+    "dunia kerja",
+    "work life balance",
+    "kecerdasan buatan",
+    "pendidikan",
+]
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
 CSV_COLUMNS = ["post_id", "text", "timestamp", "permalink", "media_type", "keyword", "search_type", "collected_at"]
 
